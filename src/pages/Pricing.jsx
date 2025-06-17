@@ -1,5 +1,4 @@
-// pages/Pricing.jsx
-import React from 'react';
+
 
 function Pricing() {
   return (

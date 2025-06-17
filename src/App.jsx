@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Pricing from './pages/Pricing';
@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/email">
       <div className="px-3">
       <Navbar />
       

@@ -8,6 +8,7 @@ function Navbar() {
 
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
+            {/* This should go to "/" not "/home" */}
             <Link className="nav-link" to="/">Home</Link>
           </li>
 
@@ -16,10 +17,7 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
-           
-              <Link className="nav-link" to="/contact">Contact Us</Link>
-            
-            
+            <Link className="nav-link" to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>
