@@ -1,4 +1,4 @@
-import teamImage from '../src/assets/pexels-photo-3182781.png'; 
+import teamImage from '../assets/pexels-photo-3182781.png'; 
 
 function Home() {
   return (
